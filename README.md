@@ -1,4 +1,5 @@
 Small Python web app with frontend written in plain JS for outputting data from Source Dedicated Server (aka. SRCDS) and executing commands remotely
+
 ##Installation
 1. Make sure you have Python 3.12 or later installed,
 2. Install all of the dependencies

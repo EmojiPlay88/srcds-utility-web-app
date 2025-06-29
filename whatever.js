@@ -33,7 +33,6 @@ function hostname(hostname){
 async function onLoad() {
     const status = await getStatus();
     const statusData = JSON.parse(status)
-    console.log(statusData)
     playerCount(statusData["players"]);
     hostname(statusData["hostname"].replaceAll("\\", ""));
 }
